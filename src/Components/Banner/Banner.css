@@ -1,0 +1,17 @@
+.main_title{
+    font-size: 70px;
+}
+.two_girl{
+    height: 800px;
+    margin-top: 50px;
+}
+.girl_image{
+    height: 500px;
+}
+.image{
+    display: inline-block;
+    transition: all 0.3s;
+}
+.image:hover{
+   transform: translate(0px, -10px);
+}
