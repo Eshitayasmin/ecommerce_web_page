@@ -1,10 +1,16 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
 import girl2 from "../../images/two_girl_banner.webp";
 import girl from "../../images/girl_banner.webp";
 
 import "./Banner.css";
 const Banner = () => {
+    const items = [
+        {
+            title: "Free shipping",
+            sub_title: "On order over $1499",
+            icon: ""
+        }
+    ]
     return (
         <div className="d-flex justify-content-evenly  align-items-center">
             <div className="">
